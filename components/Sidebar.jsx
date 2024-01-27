@@ -9,10 +9,10 @@ const Sidebar = ({ children }) => {
   return (
     <div className='flex'>
       <div className='fixed w-20 h-screen p-4 bg-[#F7F8FA] border-r-[1px] flex flex-col justify-between'>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center justify-between'>
           <Link href='/'>
             <div className=' text-white p-3 rounded-lg inline-block'>
-              <Image width={40} src="/logo.png" height={40} alt='logo'/>
+              <img width={40} src="/logo.png" height={40} alt='logo'/>
             </div>
           </Link>
           {/* <span className='border-b-[1px] border-gray-200 w-full p-2'></span> */}
@@ -46,6 +46,21 @@ const Sidebar = ({ children }) => {
               <Image width={40} src="/info-circle.svg" height={40} alt='info'/>
             </div>
           </Link>
+
+          <div className=" bg-white p-[8px] rounded-[100px]">
+            <Link href='/'>
+              <div className='bg-[#34CAA5] hover:bg-gray-200 cursor-pointer my-1 p-[6px] rounded-full inline-block'>
+                <Image width={40} src="/brightness 1.svg" height={40} alt='info'/>
+              </div>
+            </Link>
+            
+            <Link href='/'>
+              <div className=' hover:bg-gray-200 cursor-pointer my-1 p-1 rounded-lg inline-block'>
+                <Image width={40} src="/moon 1.svg" height={40} alt='info'/>
+              </div>
+            </Link>
+          </div>
+
         </div>
       </div>
       <main className='ml-20 w-full'>{children}</main>
