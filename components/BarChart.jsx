@@ -32,7 +32,7 @@ const BarChart = () => {
         datasets: [
             {
                 label: 'Sales $',
-                data: [18127, 22201, 19490, 17938, 24182, 17842, 22475],
+                data: [50.000, 40.000, 20.000, 10.000, 50.000],
                 borderColor: 'rgb(53, 162, 235)',
                 backgroundColor: 'rgb(53, 162, 235, 0.4',
               }, 
@@ -45,7 +45,7 @@ const BarChart = () => {
             },
             title: {
                 display: true,
-                text: 'Daily Revenue'
+                text: 'Sales Trend'
             }
         },
         maintainAspectRatio: false,
@@ -55,7 +55,7 @@ const BarChart = () => {
 
   return (
     <>
-      <div className='w-full md:col-span-2 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg bg-white'>
+      <div className='w-full md:col-span-2 relative lg:h-50vh] h-[374px] m-auto p-4 border rounded-lg bg-white'>
         <Bar data={chartData} options={chartOptions} />
       </div>
     </>
