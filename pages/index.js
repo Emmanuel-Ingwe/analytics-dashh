@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import TopCards from '../components/TopCards';
 import BarChart from '../components/BarChart';
 import RecentOrders from '../components/RecentOrders';
+import LastOrders from '../components/LastOrders';
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
           <TopCards />
         </div>
         <div className='p-4 grid lg:grid-cols-2 grid-cols-1 gap-4'>
-           <RecentOrders />
+           <LastOrders />
           <RecentOrders />
         </div>
       </main>
