@@ -8,7 +8,7 @@ import { FiSettings } from 'react-icons/fi';
 const Sidebar = ({ children }) => {
   return (
     <div className='flex'>
-      <div className='absolute w-20 h-full p-4 bg-[#F7F8FA] border-r-[1px] flex flex-col justify-between'>
+      <div className='absolute w-20 h-[120%] p-4 bg-[#F7F8FA] border-r-[1px] flex flex-col justify-between'>
         <div className='flex flex-col items-center'>
           <Link href='/'>
             <div className=' text-white p-3 rounded-lg inline-block'>
