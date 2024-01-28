@@ -3,11 +3,12 @@ import Link from 'next/link'
 
 const index = () => {
   return (
-    <div className="w-full lg:col-span-2 relative">
+    <div className="w-full lg:col-span-2 relative border rounded-xl p-4">
       <div className="justify-between flex items-center font-semibold">
         <h1 className="">Last Orders</h1>
         <h1 className="text-[#34CAA5] font-semibold"><Link href="/"> See Less</Link></h1>
       </div>
+      <div className="overflow-y-scroll lg:overflow-hidden">
         <table className="table-auto w-full">
         <thead>
             <tr>
@@ -30,6 +31,7 @@ const index = () => {
             ))}
         </tbody>
         </table>
+      </div>
     </div>
   )
 }
