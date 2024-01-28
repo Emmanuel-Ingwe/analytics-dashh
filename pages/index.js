@@ -26,7 +26,7 @@ export default function Home() {
           <BarChart />
           <TopCards />
         </div>
-        <div className='p-4 grid lg:grid-cols-2 grid-cols-1 gap-4'>
+        <div className='p-4 grid lg:grid-cols-3 grid-cols-1 gap-4'>
            <LastOrders />
           <RecentOrders />
         </div>
