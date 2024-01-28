@@ -4,9 +4,9 @@ import Link from 'next/link'
 const index = () => {
   return (
     <div className="">
-      <div className="justify-between flex items-center">
+      <div className="justify-between flex items-center font-semibold">
         <h1 className="">Last Orders</h1>
-        <h1 className=""><Link href="/"> See Less</Link></h1>
+        <h1 className="text-[#34CAA5] font-semibold"><Link href="/"> See Less</Link></h1>
       </div>
         <table className="table-auto ">
         <thead>
