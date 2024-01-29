@@ -6,7 +6,7 @@ const Header = () => {
     <div className='flex justify-between px-5 py-[18px] items-center border border-b'>
         <h2 className='text-[20px] font-semibold'>Dashboard</h2>
         <SeachInput />
-        <div className="flex border rounded-xl p-4">
+        <div className="flex border rounded-full p-4">
          <h2>Justin Bergson</h2>
         </div>
     </div>
