@@ -21,7 +21,7 @@ const Sidebar = ({ children }) => {
               <Image width={40} src="/icon1.png" height={40} alt='icon1'/>
             </div>
           </Link>
-          <Link href='/'>
+          <Link href='/orders'>
             <div className='bg-gray-100 hover:bg-gray-200 cursor-pointer my-2 p-3 rounded-lg inline-block'>
               <Image width={40} src="/trend-up.png" height={40} alt='trendup'/>
             </div>
