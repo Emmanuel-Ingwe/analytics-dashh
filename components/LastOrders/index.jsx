@@ -12,23 +12,21 @@ const index = () => {
         <table className="table-auto w-full">
         <thead>
             <tr>
-            <th className="px-4 py-2">ID</th>
             <th className="px-4 py-2">Name</th>
-            <th className="px-4 py-2">Age</th>
-            <th className="px-4 py-2">Name</th>
-            <th className="px-4 py-2">Age</th>
+            <th className="px-4 py-2">Price</th>
+            <th className="px-4 py-2">Range</th>
+            <th className="px-4 py-2">Country</th>
+            <th className="px-4 py-2">Rate</th>
             </tr>
         </thead>
         <tbody>
-            {[1, 2, 3, 4, 5].map((row) => (
-            <tr key={row}>
-                <td className="border px-4 py-2">{row}</td>
-                <td className="border px-4 py-2">John Doe</td>
-                <td className="border px-4 py-2">30</td>
-                <td className="border px-4 py-2">{row}</td>
-                <td className="border px-4 py-2">John Doe</td>
+            <tr>
+                <td className="border px-4 py-2">Kristine</td>
+                <td className="border px-4 py-2">$3000</td>
+                <td className="border px-4 py-2">ALL</td>
+                <td className="border px-4 py-2">Canada</td>
+                <td className="border px-4 py-2">Sufficient</td>
             </tr>
-            ))}
         </tbody>
         </table>
       </div>
