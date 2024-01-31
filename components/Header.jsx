@@ -7,6 +7,9 @@ const Header = () => {
         <h2 className='text-[20px] font-semibold'>Dashboard</h2>
         <div className="flex">
           <SeachInput />
+          <div className="flex">
+            <img src="/" alt="" />
+          </div>
           <div className="flex border rounded-full p-4">
           <h2>Justin Bergson</h2>
           </div>
