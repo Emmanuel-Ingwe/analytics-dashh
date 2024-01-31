@@ -15,8 +15,11 @@ const Header = () => {
           <div className="flex border p-2 rounded-full items-center">
             <img src="/notification-icon.png" alt="" />
           </div>
-          <div className="flex border rounded-full p-4">
-          <h2>Justin Bergson</h2>
+          <div className="flex border items-center rounded-full p-2">
+            <div className="rounded-full">
+              <img src="/loginImg.png" alt="" width={29} />
+            </div>
+           <h2>Justin Bergson</h2>
           </div>
         </div>
     </div>
