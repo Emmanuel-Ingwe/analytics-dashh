@@ -8,8 +8,10 @@ const Header = () => {
 
         <div className="flex items-center justify-between">
           <SeachInput />
-          <div className="flex items-center justify-center">
-            <img src="/solar-calender.png" alt="calender-icon" />
+          <div className="flex items-center justify-center px-20">
+            <div className='flex justify-center justify-self-center'>
+              <img src="/solar-calender.png" alt="calender-icon"/>
+            </div>
             <h1 className="">February 1, 2024</h1>
           </div>
           <div className="flex border p-2 rounded-full items-center">
@@ -19,7 +21,11 @@ const Header = () => {
             <div className="rounded-full">
               <img src="/loginImg.png" alt="" width={29} />
             </div>
-           <h2>Justin Bergson</h2>
+            <div className="flex items-center flex-col">
+             <h1>Justin Bergson</h1>
+             <h2>justin@gmail.com</h2>
+            </div>
+            <img src="/arrow-down.png" alt="" className="" />
           </div>
         </div>
     </div>
