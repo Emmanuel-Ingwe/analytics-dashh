@@ -12,7 +12,7 @@ const Header = () => {
             <div className='flex justify-center justify-self-center'>
               <img src="/solar-calender.png" alt="calender-icon"/>
             </div>
-            <h1 className="">February 1, 2024</h1>
+            <h1 className=" font-semibold">February 1, 2024</h1>
           </div>
           <div className="flex border p-2 rounded-full items-center">
             <img src="/notification-icon.png" alt="" />
