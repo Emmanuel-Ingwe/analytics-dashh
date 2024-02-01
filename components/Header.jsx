@@ -9,15 +9,15 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <SeachInput />
           <div className="flex items-center justify-center px-20">
-            <div className='flex justify-center justify-self-center px-3'>
+            <div className='flex justify-center justify-self-center px-3 cursor-pointer'>
               <img src="/solar-calender.png" alt="calender-icon"/>
             </div>
-            <h1 className=" font-semibold">February 1, 2024</h1>
+            <h1 className="font-medium text-sm">February 1, 2024</h1>
           </div>
-          <div className="flex border p-2 rounded-full items-center mr-6">
+          <div className="flex border p-2 rounded-full items-center mr-6 cursor-pointer">
             <img src="/notification-icon.png" alt="" />
           </div>
-          <div className="flex border items-center rounded-full p-2">
+          <div className="flex border items-center rounded-full p-2 cursor-pointer">
             <div className="rounded-full">
               <img src="/loginImg.png" alt="" width={38} />
             </div>
