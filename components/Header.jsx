@@ -9,12 +9,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <SeachInput />
           <div className="flex items-center justify-center px-20">
-            <div className='flex justify-center justify-self-center'>
+            <div className='flex justify-center justify-self-center px-3'>
               <img src="/solar-calender.png" alt="calender-icon"/>
             </div>
             <h1 className=" font-semibold">February 1, 2024</h1>
           </div>
-          <div className="flex border p-2 rounded-full items-center">
+          <div className="flex border p-2 rounded-full items-center mr-6">
             <img src="/notification-icon.png" alt="" />
           </div>
           <div className="flex border items-center rounded-full p-2">
