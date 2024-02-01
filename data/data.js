@@ -110,3 +110,43 @@ export const data = [
     date: '1 Day ago',
   },
 ];
+
+
+export const TopData = [
+  {
+    id: 1,
+    statusIcon: <img src="" />,
+    flowIcon: <img src="" />,
+    status: 'Total order',
+    digits: 350,
+    rate: <img src="" />,
+    month: "vs. previous month"
+  },
+  {
+    id: 2,
+    statusIcon: <img src="" />,
+    flowIcon: <img src="" />,
+    status: 'Total Refund',
+    digits: 270,
+    rate: <img src="" />,
+    mounth: "vs. previous month"
+  },
+  {
+    id: 3,
+    statusIcon: <img src="" />,
+    flowIcon: <img src="" />,
+    status: 'Average Sales',
+    digits: 1567,
+    rate: <img src="" />,
+    month: "vs. previous month"
+  },
+  {
+    id: 4,
+    statusIcon: <img src="" />,
+    flowIcon: <img src="" />,
+    status: 'Total Income',
+    digits: "$350.000",
+    rate: <img src="" />,
+    month: "vs. previous month"
+  },
+];
