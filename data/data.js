@@ -115,16 +115,16 @@ export const data = [
 export const TopData = [
   {
     id: 1,
-    statusIcon: <img src="" />,
+    statusIcon: <img src="/box-tick.png" />,
     flowIcon: <img src="/greenflow.png" />,
     status: 'Total order',
     digits: 350,
-    rate: <img src="" />,
+    rate: <img src="/rateGreen.png" />,
     month: "vs. previous month"
   },
   {
     id: 2,
-    statusIcon: <img src="" />,
+    statusIcon: <img src="/3d-rotate.png" />,
     flowIcon: <img src="" />,
     status: 'Total Refund',
     digits: 270,
@@ -133,7 +133,7 @@ export const TopData = [
   },
   {
     id: 3,
-    statusIcon: <img src="" />,
+    statusIcon: <img src="/shopping-cart.png" />,
     flowIcon: <img src="" />,
     status: 'Average Sales',
     digits: 1567,
@@ -142,7 +142,7 @@ export const TopData = [
   },
   {
     id: 4,
-    statusIcon: <img src="" />,
+    statusIcon: <img src="/coin.png" />,
     flowIcon: <img src="" />,
     status: 'Total Income',
     digits: "$350.000",
