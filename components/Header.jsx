@@ -8,7 +8,7 @@ const Header = () => {
 
         <div className="flex items-center justify-between">
           <SeachInput />
-          <div className="flex items-center justify-center px-20">
+          <div className="lg:flex items-center justify-center px-20 hidden">
             <div className='flex justify-center justify-self-center px-3 cursor-pointer'>
               <img src="/solar-calender.png" alt="calender-icon"/>
             </div>
