@@ -129,7 +129,7 @@ export const TopData = [
     status: 'Total Refund',
     digits: 270,
     rate: <img src="/rateRed.png" />,
-    mounth: "vs. previous month"
+    month: "vs. previous month"
   },
   {
     id: 3,
