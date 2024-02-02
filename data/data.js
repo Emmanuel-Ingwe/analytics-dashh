@@ -116,7 +116,7 @@ export const TopData = [
   {
     id: 1,
     statusIcon: <img src="" />,
-    flowIcon: <img src="" />,
+    flowIcon: <img src="/greenflow.png" />,
     status: 'Total order',
     digits: 350,
     rate: <img src="" />,
