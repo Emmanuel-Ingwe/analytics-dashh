@@ -117,7 +117,7 @@ export const TopData = [
     id: 1,
     statusIcon: <img src="/box-tick.png" />,
     flowIcon: <img src="/greenflow.png" />,
-    status: 'Total order',
+    status: 'Total Order',
     digits: 350,
     rate: <img src="/rateGreen.png" />,
     month: "vs. previous month"
@@ -137,7 +137,7 @@ export const TopData = [
     flowIcon: <img src="/redflow.png" />,
     status: 'Average Sales',
     digits: 1567,
-    rate: <img src="/rateGreen.png" />,
+    rate: <img src="/rateRed.png" />,
     month: "vs. previous month"
   },
   {

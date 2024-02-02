@@ -13,12 +13,12 @@ const TopCards = () => {
                 </div>
                 {item.flowIcon}
             </div>
-            <div className='flex flex-col w-full pb-4'>
-                <p className='text-2xl font-bold'>{item.status}</p>
-                <p className='text-gray-600'>{item.digits}</p>
-                <div className="flex">
+            <div className='flex flex-col w-full'>
+                <p className='text-xl font-medium text-[#898989] py-2'>{item.status}</p>
+                <p className='font-semibold text-2xl'>{item.digits}</p>
+                <div className="flex pt-3 justify-between">
                     {item.rate}
-                    <p className="">{item.month}</p>
+                    <p className="text-gray-500">{item.month}</p>
                 </div> 
             </div>
         </div>
