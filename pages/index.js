@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest"/>
       </Head>
 
-      <main className='bg-gray-0 min-h-screen'>
+      <main className='bg-gray-100 min-h-[115%]'>
         <Header />
         <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
           <BarChart />

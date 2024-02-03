@@ -6,7 +6,7 @@ const RecentOrders = () => {
   return (
     <div className='w-full col-span-1 relative h-[40vh] m-auto p-4 border rounded-lg bg-white overflow-y-scroll'>
       <div className="flex items-center justify-between">
-        <h1 className=''>Top Platform</h1>
+        <h1 className='font-semibold text-lg'>Top Platform</h1>
         <h2 className="">See All</h2>
       </div>
       <ul>
