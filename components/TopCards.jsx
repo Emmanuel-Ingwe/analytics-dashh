@@ -8,7 +8,7 @@ const TopCards = () => {
     {TopData.map((item, id) => (
         <div key={id} className='lg:col-span-1 col-span-1 bg-white flex flex-col border p-4 rounded-[14px]'>
             <div className="flex items-center justify-between cursor-pointer">
-                <div className="flex border rounded-full items-center p-2 hover:bg-gray-200">
+                <div className="flex border rounded-full items-center p-2 hover:bg-gray-200 transition-all duration-1000">
                     {item.statusIcon}
                 </div>
                 {item.flowIcon}
