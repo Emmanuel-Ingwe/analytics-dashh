@@ -4,7 +4,7 @@ export const data = [
     name: "Book Bazaar",
     amount: "$2,500,000",
     percentage: "+15%",
-    style: <div className="absolute w-[245] h-[12px] rounded-[40px] bg-[#616odc]"></div>,
+    style: <div className="absolute w-[245px] h-[12px] rounded-[40px] bg-[#6160dc]"></div>,
   },
 ];
 

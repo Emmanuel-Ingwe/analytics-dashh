@@ -11,8 +11,15 @@ const RecentOrders = () => {
       </div>
       <ul>
         {data.map((order, id) => (
-          <div className="">
-            
+          <div className="py-4">
+            <h1>{order.name}</h1>
+            <div className="relative flex items-center w-full h-3 rounded-[40px] bg-[#f5f5f5]">
+              <div className="">{order.style}</div>
+            </div>
+            <div className="flex items-center justify-between">
+              <h1 className="">{order.amount}</h1>
+              <h1 className="">{order.percentage}</h1>
+            </div>
           </div>
         ))}
       </ul>
