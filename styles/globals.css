@@ -5,8 +5,9 @@
 
 .before::before {
     content: "";
-    width: 100%;
+    width:65%;
     height: 12px;
     position: absolute;
     background: #6160DC;
+    border-radius: 40px;
 }
