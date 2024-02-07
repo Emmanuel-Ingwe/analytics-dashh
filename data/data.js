@@ -11,7 +11,7 @@ export const data = [
     name: "Book Bazaar",
     amount: "$1,800,000",
     percentage: "+0%",
-    style: <div className="absolute w-[245px] h-[12px] rounded-[40px] bg-[#6160dc]"></div>,
+    style: "",
   },
   {
     id: 1,
