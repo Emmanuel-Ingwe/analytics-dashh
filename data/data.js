@@ -4,7 +4,7 @@ export const data = [
     name: "Book Bazaar",
     amount: "$2,500,000",
     percentage: "+15%",
-    style: "before",
+    style: "",
   },
   {
     id: 1,
