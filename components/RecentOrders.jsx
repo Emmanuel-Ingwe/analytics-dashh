@@ -21,10 +21,12 @@ const RecentOrders = () => {
               <h1 className="font-normal text-lg">{order.percentage}</h1>
             </div>
           </div>
+
+          /*Delete AND MAKE A COMPONENT OF THAT ABOVE */
         ))}
       </ul>
     </div>
   );
 };
-
+ 
 export default RecentOrders;
