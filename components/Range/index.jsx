@@ -1,8 +1,8 @@
 import React from 'react'
 
-const index = (props) => {
+const index = (bgColor, width) => {
   return (
-    <div className="">s</div>
+    <div className={`dd ${bgColor} w-[${width}]`}>s</div>
   )
 }
 

@@ -11,16 +11,18 @@ const RecentOrders = () => {
         <h2 className="text-lg font-medium text-[#34caa5]">See All</h2>
       </div>
       <ul>
-        <div className={`py-4 ${props.className}`}>
-              <h1 className='font-semibold text-lg'>{order.name}</h1>
-              <div className="flex items-center w-full before h-3 rounded-[40px] bg-[#f5f5f5] my-4">
-                  <Range className="w" />
-              </div>
-              <div className="flex items-center justify-between text-[#22242C]">
-                <h1 className="font-normal text-lg">{order.amount}</h1>
-                <h1 className="font-normal text-lg">{order.percentage}</h1>
-              </div>
-        </div>
+        {data.map((order, index) => (
+          <div className="py-4">
+                <h1 className='font-semibold text-lg'>{order.name}</h1>
+                <div className="flex items-center w-full before h-3 rounded-[40px] bg-[#f5f5f5] my-4">
+                    <Range bgColor="w" width="50%" />
+                </div>
+                <div className="flex items-center justify-between text-[#22242C]">
+                  <h1 className="font-normal text-lg">{order.amount}</h1>
+                  <h1 className="font-normal text-lg">{order.percentage}</h1>
+                </div>
+          </div>
+          ))} 
       </ul>
     </div>
   );
