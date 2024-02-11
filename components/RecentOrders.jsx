@@ -15,7 +15,7 @@ const RecentOrders = () => {
           <div className="py-4">
                 <h1 className='font-semibold text-lg'>{order.name}</h1>
                 <div className="items-center w-full h-3 rounded-[40px] bg-[#f5f5f5] my-4">
-                    <Range bgColor="bg-[#6160DC]" width="50%" />
+                    <Range bgColor="bg-[#6160DC]" width="w-[50%]" />
                 </div>
                 <div className="flex items-center justify-between text-[#22242C]">
                   <h1 className="font-normal text-lg">{order.amount}</h1>

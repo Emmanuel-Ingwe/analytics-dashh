@@ -1,8 +1,8 @@
 import React from 'react'
 
-const index = (bgColor, width) => {
+const index = ({bgColor, width}) => {
   return (
-    <div className={`dd bg-[${bgColor}] w-[${width}] h-3 absolute rounded-full `}>s</div>
+    <div className={`dd ${bgColor} ${width} h-3 absolute rounded-full `}>s</div>
   )
 }
 
