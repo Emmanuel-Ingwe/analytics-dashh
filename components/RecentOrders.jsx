@@ -11,18 +11,17 @@ const RecentOrders = () => {
         <h2 className="text-lg font-medium text-[#34caa5]">See All</h2>
       </div>
       <ul>
-        {data.map((order, index) => (
           <div className="py-4">
                 <h1 className='font-semibold text-lg'>{order.name}</h1>
                 <div className="items-center w-full h-3 rounded-[40px] bg-[#f5f5f5] my-4">
                     <Range bgColor="bg-[#6160DC]" width="w-[50%]" />
+                    <Range bgColor="bg-[#54C5EB]" width="w-[50%]" />
                 </div>
                 <div className="flex items-center justify-between text-[#22242C]">
                   <h1 className="font-normal text-lg">{order.amount}</h1>
                   <h1 className="font-normal text-lg">{order.percentage}</h1>
                 </div>
           </div>
-          ))} 
       </ul>
     </div>
   );
