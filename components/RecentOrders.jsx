@@ -27,7 +27,7 @@ const RecentOrders = () => {
                     <Range bgColor="bg-[#6160DC]" width="w-[50%]" />
                 </div>
                 <div className="flex items-center justify-between text-[#22242C]">
-                  <h1 className="font-normal text-lg">$2,500,000</h1>
+                  <h1 className="font-normal text-lg">$5,500,000</h1>
                   <h1 className="font-normal text-lg">+50%</h1>
                 </div>
           </div>
@@ -37,8 +37,28 @@ const RecentOrders = () => {
                     <Range bgColor="bg-[#54C5EB]" width="w-[25%]" />
                 </div>
                 <div className="flex items-center justify-between text-[#22242C]">
-                  <h1 className="font-normal text-lg">$2,500,000</h1>
+                  <h1 className="font-normal text-lg">$2,000,000</h1>
                   <h1 className="font-normal text-lg">+25%</h1>
+                </div>
+          </div>
+          <div className="py-4">
+                <h1 className='font-semibold text-lg'>Book Bazaar</h1>
+                <div className="items-center w-full h-3 rounded-[40px] bg-[#f5f5f5] my-4">
+                    <Range bgColor="bg-[#FF4A55]" width="w-[5%]" />
+                </div>
+                <div className="flex items-center justify-between text-[#22242C]">
+                  <h1 className="font-normal text-lg">$4,500,000</h1>
+                  <h1 className="font-normal text-lg">+5%</h1>
+                </div>
+          </div>
+          <div className="py-4">
+                <h1 className='font-semibold text-lg'>Book Bazaar</h1>
+                <div className="items-center w-full h-3 rounded-[40px] bg-[#f5f5f5] my-4">
+                    <Range bgColor="bg-[#FFB74A]" width="w-[80%]" />
+                </div>
+                <div className="flex items-center justify-between text-[#22242C]">
+                  <h1 className="font-normal text-lg">$1,500,000</h1>
+                  <h1 className="font-normal text-lg">+80%</h1>
                 </div>
           </div>
       </ul>
