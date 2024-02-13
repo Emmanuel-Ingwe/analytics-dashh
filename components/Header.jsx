@@ -14,7 +14,7 @@ const Header = () => {
             </div>
             <h1 className="font-medium text-sm">February 1, 2024</h1>
           </div>
-          <div className="flex border p-2 rounded-full items-center mr-6 cursor-pointer">
+          <div className="flex border p-2 rounded-full items-center lg:mr-6 mr-6 cursor-pointer">
             <img src="/notification-icon.png" alt="" />
           </div>
           <div className="flex border items-center rounded-full p-2 cursor-pointer">
