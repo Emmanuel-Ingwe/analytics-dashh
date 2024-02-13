@@ -21,7 +21,7 @@ const Header = () => {
             <div className="rounded-full">
               <img src="/loginImg.png" alt="" width={38} />
             </div>
-            <div className="flex items-center flex-col px-3">
+            <div className="lg:flex items-center flex-col px-3 hidden">
              <h1 className='text-sm'>Justin Bergson</h1>
              <h2 className='text-xs text-gray-400'>justin@gmail.com</h2>
             </div>
