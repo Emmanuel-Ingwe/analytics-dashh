@@ -25,7 +25,7 @@ const Header = () => {
              <h1 className='text-sm'>Justin Bergson</h1>
              <h2 className='text-xs text-gray-400'>justin@gmail.com</h2>
             </div>
-            <img src="/arrow-down.png" alt="" className="" />
+            <img src="/arrow-down.png" alt="" className="hidden lg:block" />
           </div>
         </div>
     </div>
