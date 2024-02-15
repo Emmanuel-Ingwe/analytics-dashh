@@ -22,7 +22,7 @@ export default function Home() {
 
       <main className='bg-gray-100 min-h-[115%]'>
         <Header />
-        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
+        <div className='p-4 grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-4'>
           <BarChart />
           <TopCards />
         </div>
