@@ -11,7 +11,7 @@ const index = () => {
       <div className="overflow-y-scroll lg:overflow-hidden">
         <table className="table-auto w-full">
         <thead>
-            <tr>
+            <tr className=' text-left font-medium text-[#9CA4AB]'>
             <th className="px-4 py-2">Name</th>
             <th className="px-4 py-2">Date</th>
             <th className="px-4 py-2">Amount</th>
