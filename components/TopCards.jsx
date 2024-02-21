@@ -4,7 +4,7 @@ import { TopData } from '@/data/data'
 
 const TopCards = () => {
   return (
-    <div className='grid lg:grid-cols-2  w-full gap-4'>
+    <div className='grid lg:grid-cols-2 w-full gap-4'>
     {TopData.map((item, id) => (
         <div key={id} className='lg:col-span-1 col-span-1 bg-white flex flex-col border p-4 rounded-[14px]'>
             <div className="flex items-center justify-between cursor-pointer">
