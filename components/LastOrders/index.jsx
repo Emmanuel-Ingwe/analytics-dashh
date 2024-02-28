@@ -22,10 +22,10 @@ const index = () => {
         <tbody>
             <tr>
                 <td className="border px-4 py-2">Kristine</td>
-                <td className="border px-4 py-2">$3000</td>
                 <td className="border px-4 py-2">ALL</td>
-                <td className="border px-4 py-2">Mexico</td>
+                <td className="border px-4 py-2">$3000</td>
                 <td className="border px-4 py-2">Sufficient</td>
+                <td className="border px-4 py-2">Mexico</td>
             </tr>
         </tbody>
         </table>
